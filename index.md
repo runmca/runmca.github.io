@@ -1,6 +1,6 @@
 ## Hello.
 
-Currently working on SQL queries, PowerSchool API’s , Google Apps Script and Data Studio.
+Currently working on education data visualizations using SQL, API’s, Google Apps Script and Data Studio.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
