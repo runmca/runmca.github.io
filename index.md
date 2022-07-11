@@ -2,6 +2,14 @@
 
 Currently working on education data visualizations using SQL, API’s, Google Apps Script and Data Studio.
 
+## My tech timeline.
+
+I've been around computers most of my life. In fact, my dad opened a computer retail store _AM Computer Products, Inc._ back in, I believe, 1980. Here he is outside the storefront in Southington, Connecticut. 
+
+![Image](IMG_1171.JPG)
+
+Growing up, I spent the weekends cleaning the office and just hanging out to see what new computer or game 
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
