@@ -4,7 +4,7 @@ Currently working on education data visualizations using SQL, API’s, Google Ap
 
 ## My tech timeline.
 
-I've been around computers most of my life. In fact, my dad opened a retail computer store _AM Computer Products, Inc._ back in, I believe, 1980. Here he is outside the storefront in Southington, Connecticut. 
+I've been around computers most of my life. In fact, my dad opened a retail computer store _AM Computer Products, Inc._ back in, I believe, 1980. Here he is outside the storefront. 
 
 ![Image](IMG_1171v2.JPG)
 
