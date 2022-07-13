@@ -2,6 +2,7 @@
 
 Currently working on education data visualizations using SQL, API’s, Google Apps Script and Data Studio.
 
+
 ## My tech timeline.
 
 I've been around computers most of my life...
