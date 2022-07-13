@@ -15,7 +15,9 @@ I spent many weekends cleaning the office or just hanging out playing with a new
 Most coins used: Ms. Pac-Man. Other arcade favorites: Donkey Kong Jr. & 1942
 Favorite Apple game: Castle Wolfenstein, runners-up: King's Quest I/Space Quest I/Police Quest I
 
-**The 90's** After high school, I continued to work for the family business. By then we were selling and supporting many small and large businesses, along with the retail and education markets. I remember installing 3270 mainframe emulation cards inside of Macintosh SE computers. Does anyone remember the Mac Cracker tool? 
+**The 90's** After high school, I continued to work for the family business. By then we were selling and supporting many small and large businesses, along with the retail and education markets. I remember installing 3270 mainframe emulation cards inside of Macintosh SE computers. The Mac Cracker 
+
+![Image](mac_cracker.png)
 
 The mid 90's brought consolidation to the computer reseller industry and my parents decided to sell the business. 
 
