@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta charset="utf-8" />
+<title>Mark Alfano GEOG4515 Final Project</title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" media="all" href="styles.css">
+<link rel="stylesheet" type="text/css" href="tswtabs.css" />
+<!-- Load Calcite components from CDN -->
+    <script type="module" src="https://js.arcgis.com/calcite-components/3.3.3/calcite.esm.js"></script>
+
+    <!-- Load the ArcGIS Maps SDK for JavaScript from CDN -->
+    <script src="https://js.arcgis.com/4.34/"></script>
+
+    <!-- Load Map components from CDN-->
+    <script type="module" src="https://js.arcgis.com/4.34/map-components/"></script>
+    <script type="module">
+      const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
+
+    </script>
+    <script type="module">
+      const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
+
+      const viewElement = document.querySelector("arcgis-map");
+      await viewElement.viewOnReady();
+
+      // Dam Points feature layer (points)
+      const dampointsLayer = new FeatureLayer({
+        url: "https://services1.arcgis.com/6ItOFXGFmdtfeOZb/arcgis/rest/services/Klamath_Map_4_WFL1/FeatureServer/8",
+      });
+		viewElement.map.add(dampointsLayer);
+    </script>
+
+</head>
+
+<body>
+
+<div id="tswcontainer">
+
+	<div id="tswcontent">
+	<h4><div id="tswcsstabs">
+        <ul>
+    <li><a href="/Lab3/index.html">Home</a></li>
+    <li><a href="/Lab3/background.html">Background</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    </ul>
+    
+    </div>
+	</h4>
+	
+	<br>
+	<div id="tswcontproper">
+	<!-- start of content column: insert your content here -->
+
+	<h1>Mark Alfano</h1>
+	<p>Final Project</p>
+
+	
+		<p>Klamath River Dam Removal</p>
+	  
+	<!-- end of content column: put your content above this line -->
+	</div>
+	</div>
+	
+    </div>
+    <arcgis-map item-id="9d0108a20e124cb08a9c0852c3fe6e90">
+
+    </arcgis-map>
+ </body>
+
+</html>
