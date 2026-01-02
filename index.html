@@ -91,7 +91,15 @@
         container: "viewDiv",
         popup: {
         visible: true,
-                },
+        dockEnabled: true,
+        dockOptions: {
+        // Disables the button that allows users to undock the popup
+        buttonEnabled: false,
+        // Setting breakpoint to false ensures it stays docked on all screen sizes
+        breakpoint: false,
+        position: "top-left"
+        }
+        },
         // navigation: {
         //  mouseWheelZoomEnabled: false,
         //  browserTouchPanEnabled: false,
