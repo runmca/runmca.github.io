@@ -58,10 +58,11 @@
     <script src="https://js.arcgis.com/4.34/"></script>
 
     <script type="module">
-      const [MapView, WebMap, Legend] = await $arcgis.import([
+      const [MapView, WebMap, Legend, Popup] = await $arcgis.import([
         "@arcgis/core/views/MapView.js",
         "@arcgis/core/WebMap.js",
         "@arcgis/core/widgets/Legend",
+        "@arcgis/core/widgets/Popup",
       ]);
 
       const webmapids = [
