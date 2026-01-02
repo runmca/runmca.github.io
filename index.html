@@ -97,18 +97,47 @@
         const legend = new Legend({
         view: view
         });
-    view.when(() => {
-  view.openPopup({
-    title: "Pinned Location",
-    content: "This popup is open by default.",
-    location: {
-      type: "point", 
-      longitude: -122.4049, 
-      latitude: 42.2274
-    }
-  });
-});
+    
     view.ui.add(legend, "top-right"); // Adds the legend to the bottom-right of the view
+});
+require([
+  "esri/Graphic",
+  "esri/layers/GraphicsLayer"
+], (Graphic, GraphicsLayer) => {
+
+  const graphicsLayer = new GraphicsLayer();
+  map.add(graphicsLayer);
+
+  // 1. Create the text symbol
+  const textSymbol = {
+    type: "text",  // autocasts as new TextSymbol()
+    color: "white",
+    haloColor: "black",
+    haloSize: "1px",
+    text: "Hello World",
+    xoffset: 3,
+    yoffset: 3,
+    font: {  // autocasts as new Font()
+      size: 12,
+      family: "sans-serif",
+      weight: "bold"
+    }
+  };
+
+  // 2. Create the point geometry
+  const point = {
+    type: "point", // autocasts as new Point()
+    longitude: -122.805,
+    latitude: 42.027
+  };
+
+  // 3. Create the graphic and add it to the layer
+  const textGraphic = new Graphic({
+    geometry: point,
+    symbol: textSymbol
+  });
+
+  graphicsLayer.add(textGraphic);
 });
       document.querySelector(".btns").addEventListener("click", (event) => {
         /************************************************************
