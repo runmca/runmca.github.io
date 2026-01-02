@@ -93,16 +93,17 @@
           browserTouchPanEnabled: false,
         },
         popup: {
-    dockEnabled: true,
-    dockOptions: {
-      // Disables the button that allows users to undock the popup
-      buttonEnabled: false,
-      // Setting breakpoint to false ensures it stays docked on all screen sizes
-      breakpoint: false,
-      // Position options: "top-left", "top-center", "top-right", 
-      // "bottom-left", "bottom-center", "bottom-right"
-      position: "top-center"
-    },
+        dockEnabled: true,
+        dockOptions: {
+        // Disables the button that allows users to undock the popup
+        buttonEnabled: false,
+        // Setting breakpoint to false ensures it stays docked on all screen sizes
+        breakpoint: false,
+        // Position options: "top-left", "top-center", "top-right", 
+        // "bottom-left", "bottom-center", "bottom-right"
+        position: "top-center"
+        }
+        },
       });
       view.when(() => {
         const legend = new Legend({
