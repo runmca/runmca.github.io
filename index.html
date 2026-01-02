@@ -88,11 +88,6 @@
       const view = new MapView({
         map: webmaps[0],
         container: "viewDiv",
-        navigation: {
-          mouseWheelZoomEnabled: false,
-          browserTouchPanEnabled: false,
-          position: "top-right"
-        },
         popup: {
         dockEnabled: true,
         dockOptions: {
@@ -103,13 +98,17 @@
         position: "top-left"
         }
         },
+        navigation: {
+          mouseWheelZoomEnabled: false,
+          browserTouchPanEnabled: false,
+        },
       });
       view.when(() => {
         const legend = new Legend({
         view: view
         });
     
-    view.ui.add(legend, "top-right"); // Adds the legend to the bottom-right of the view
+    view.ui.add(legend, "bottom-right"); // Adds the legend to the bottom-right of the view
 });
 
       document.querySelector(".btns").addEventListener("click", (event) => {
