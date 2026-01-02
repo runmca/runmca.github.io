@@ -97,7 +97,17 @@
         const legend = new Legend({
         view: view
         });
-
+    view.popup = {
+  dockEnabled: true,
+  dockOptions: {
+    // Disables the button to undock the popup
+    buttonEnabled: false,
+    // Forces the popup to stay in the top-right
+    position: "top-right",
+    // Ensure it stays docked regardless of screen size
+    breakpoint: false 
+  }
+};
     view.ui.add(legend, "top-right"); // Adds the legend to the bottom-right of the view
 });
       document.querySelector(".btns").addEventListener("click", (event) => {
